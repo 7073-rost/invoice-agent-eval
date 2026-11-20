@@ -1,0 +1,24 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---------- 虚拟环境 ----------
+.venv/
+
+# ---------- 密钥与系统文件 ----------
+.env
+.env.local
+.DS_Store
+
+# Streamlit：忽略本地内容，但保留主题配置 config.toml
+.streamlit/*
+!.streamlit/config.toml
+
+# ---------- 测试数据（票据图片与标准答案，含真实票面信息） ----------
+data/
+
+# ---------- 本地运行产物 ----------
+eval_runs/
+logs/

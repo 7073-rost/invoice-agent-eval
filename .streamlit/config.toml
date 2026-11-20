@@ -1,0 +1,22 @@
+# Streamlit 主题：Vercel 风格暗黑 + 蓝色主色
+# 修改后需要重启 Streamlit 服务生效。
+
+[theme]
+base = "dark"
+primaryColor = "#1F6FEB"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B22"
+textColor = "#E6EDF3"
+borderColor = "#30363D"
+linkColor = "#58A6FF"
+baseRadius = "8px"
+buttonRadius = "8px"
+showWidgetBorder = true
+font = "sans-serif"
+codeBackgroundColor = "#0D1117"
+codeTextColor = "#E6EDF3"
+
+[theme.sidebar]
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B22"
+borderColor = "#30363D"
